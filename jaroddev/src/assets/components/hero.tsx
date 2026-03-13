@@ -1,4 +1,3 @@
-import React from 'react'
 import github from '../../assets/images/github.svg'
 import linkdin from '../../assets/images/linkdin.svg'
 import gmail from '../../assets/images/gmail.svg'

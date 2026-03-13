@@ -1,4 +1,3 @@
-import React from 'react'
 import bitmoji from '../images/bitmoji.png'
 import vector from '../images/vector.svg'
 
