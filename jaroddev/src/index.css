@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@theme {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-helvetica: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(26, 18, 36, 1) 0%, rgba(34, 34, 34, 1) 100%);
+  min-height: 100vh;
+}
+
+.text-gradient {
+  display: inline-block;
+  background: linear-gradient(to right, rgba(135, 33, 155, 1) 0%, rgba(93, 117, 197, 1) 50%, rgba(255, 255, 255, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, rgba(135, 33, 155, 1) 0%, rgba(93, 117, 197, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.border-gradient {
+  position: relative;
+  background: transparent;
+}
+
+.border-gradient::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(to right, rgba(135, 33, 155, 1) 0%, rgba(93, 117, 197, 1) 50%, rgba(255, 255, 255, 1) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.glass-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 24px rgba(255, 255, 255, 0.05);
+}
+
