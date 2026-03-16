@@ -19,7 +19,7 @@ function Profil() {
                         </div>
                         <div className ="border-gradient rounded-full p-4 flex items-center gap-2">
                             <img src={vector} alt="vector" className='w-6 inline-block mr-2' />
-                            <span className='text-lg md:text-2xl font-poppins text-gradient'>Developpement d'application web</span>
+                            <span className='text-lg md:text-2xl font-poppins text-gradient'>Developpement d'applications mobiles</span>
                         </div>
                         <div className ="border-gradient rounded-full p-4 flex items-center gap-2">
                             <img src={vector} alt="vector" className='w-6 inline-block mr-2' />
