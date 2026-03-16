@@ -3,7 +3,7 @@ import vector from '../images/vector.svg'
 
 function Profil() {
     return (
-        <section className='mt-20'>
+        <section id="about" className='mt-20'>
             <h2 className='text-5xl font-helvetica font-bold text-white text-center'>À propos</h2>
             <div className="mt-10 md:mx-60 flex flex-col-reverse md:flex-row gap-10 md:gap-50 px-6">
                  <div className='relative flex items-center justify-center'>

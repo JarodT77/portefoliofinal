@@ -24,6 +24,19 @@ body {
 
 .btn-gradient {
   background: linear-gradient(to right, rgba(135, 33, 155, 1) 0%, rgba(93, 117, 197, 1) 50%, rgba(255, 255, 255, 1) 100%);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 24px rgba(135, 33, 155, 0.65), 0 0 48px rgba(93, 117, 197, 0.35);
+  opacity: 0.9;
+}
+
+.btn-gradient:active {
+  transform: scale(0.97);
+  opacity: 1;
 }
 
 @keyframes scroll {
@@ -65,5 +78,17 @@ textarea.text-gradient::placeholder {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 24px rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+}
+
+.glass-circle:hover {
+  transform: scale(1.15);
+  background: rgba(135, 33, 155, 0.3);
+  box-shadow: 0 0 20px rgba(135, 33, 155, 0.5), 0 0 40px rgba(93, 117, 197, 0.25);
+}
+
+.glass-circle:active {
+  transform: scale(0.95);
 }
 

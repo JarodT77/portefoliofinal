@@ -2,7 +2,7 @@ import antifragile from '../images/antifragile.png'
 
 function Projects() {
     return (
-        <section className='mt-20 px-4 md:px-20 md:mx-40 '>
+        <section id="projects" className='mt-20 px-4 md:px-20 md:mx-40 '>
             <h2 className='text-5xl font-helvetica font-bold text-white text-center'>Projets</h2>
             <div className='mt-10 md:mt-20 flex flex-col md:flex-row gap-10 md:gap-40 px-6 md:px-0'>
                 <div className='relative flex items-center justify-center w-full md:w-1/2'>
@@ -24,11 +24,12 @@ function Projects() {
                     </div>
                     <p className='text-lg md:text-xl font-poppins text-white text-left md:text-left'>Nutrition Antifragile est un site web dédié au partage d’articles sur la nutrition et la santé. Le projet intègre un système d’abonnement permettant d’accéder à du contenu premium.Le site a été développé avec React pour le front-end et Django / Django REST Framework pour le back-end. Les articles sont créés et gérés via CKEditor depuis l’interface d’administration. Les principales fonctionnalités incluent : authentification des utilisateurs, abonnement avec Stripe, gestion dynamique des articles et système de commentaires pour les utilisateurs connectés.</p>
                     <div className='flex flex-col md:flex-row gap-2 md:gap-4 mt-6 md:mt-10 items-center md:items-start'>
-                        <button className='px-6 md:px-8 py-2 btn-gradient text-white rounded-full font-poppins font-bold text-base md:text-lg flex items-center gap-2'>
-                        Voir le projet</button>
-                        <button className='px-6 md:px-8 py-2 btn-gradient text-white rounded-full font-poppins font-bold text-base md:text-lg flex items-center gap-2'>
+                        <a href="https://alionka-houl.eo.symbiose-audiovisuelle.fr/" target="_blank" rel="noopener noreferrer" className='px-6 md:px-8 py-2 btn-gradient text-white rounded-full font-poppins font-bold text-base md:text-lg flex items-center gap-2'>
+                            Voir le projet
+                        </a>
+                        <a href="https://github.com/alionka34-code/nutrition-antifragile-" target="_blank" rel="noopener noreferrer" className='px-6 md:px-8 py-2 btn-gradient text-white rounded-full font-poppins font-bold text-base md:text-lg flex items-center gap-2'>
                             Voir le Github
-                        </button>
+                        </a>
                     </div>
                     
                 </div>
